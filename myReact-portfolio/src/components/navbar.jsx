@@ -1,19 +1,19 @@
 // navbar.jsx
-import { Link } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 // Navbar 
 const Navbar = ()=>{
     return(
         <nav>
             <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/resume'>Resume</Link></li>
-                <li><Link to='/services'>Services</Link></li>
-                <li><Link to='/cssprojects'>Css-Projects</Link></li>
-                <li><Link to='/javascriptprojects'>Javascript-Projects</Link></li>
-                <li><Link to='/codingexercises'>Coding-Exercises</Link></li>
-                <li><Link to='/beyondcode'>Beyond-code</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/about'>About</NavLink></li>
+                <li><NavLink to='/resume'>Resume</NavLink></li>
+                <li><NavLink to='/services'>Services</NavLink></li>
+                <li><NavLink to='/cssprojects'>Css-Projects</NavLink></li>
+                <li><NavLink to='/javascriptprojects'>Javascript-Projects</NavLink></li>
+                <li><NavLink to='/codingexercises'>Coding-Exercises</NavLink></li>
+                <li><NavLink to='/beyondcode'>Beyond-code</NavLink></li>
+                <li><NavLink to='/contact'>Contact</NavLink></li>
             </ul>
         </nav>
     )
