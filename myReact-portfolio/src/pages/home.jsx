@@ -96,7 +96,7 @@ const Home = () => {
             <img
               src={myPic}
               alt="Azizullah"
-              className="h-[400px] w-[400px] md:h-[500px]  md:w-[530px] object-cover"
+              className="h-[400px] w-[400px] md:h-125  md:w-132.5 object-cover"
             />
           </div>
 
