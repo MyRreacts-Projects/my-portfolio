@@ -1,44 +1,63 @@
-// navbar.jsx
-import {NavLink } from "react-router-dom";
 import { useState } from "react";
-// Navbar 
-const Navbar = ()=>{
-    return(
-        <nav className="bg-gray-900 text-white">
-            <div className="max-w-7xl mx-auto px-[16px]">
-                <div className="flex justify-between items-center h-[60px]">
+import { NavLink } from "react-router-dom";
 
-                    {/* logo */}
-                    <div className="text-[30px] font-bold">
-                        AZIZULLAH
-                    </div>
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-                    {/* Desktop menu */}
-                    <div className="hidden md:flex gap-[20px]">
-                        <NavLink to='/about'className='hover:text-blue-400 transition duration-700'>About</NavLink>
-                        <NavLink to='/resume' className='hover:text-blue-400 transition duration-700'>Resume</NavLink>
-                        <NavLink to='/services' className='hover:text-blue-400 transition duration-700'>Services</NavLink>
-                        <NavLink to='/cssprojects' className='hover:text-blue-400 transition duration-700'>Css-Projects</NavLink>
-                        <NavLink to='/javascriptprojects' className='hover:text-blue-400 transition duration-700'>Javascript-Projects</NavLink>
-                        <NavLink to='/codingexercises' className='hover:text-blue-400 transition duration-700'>Coding-Exercises</NavLink>
-                        <NavLink to='/beyondcode' className='hover:text-blue-400 transition duration-700'>Beyond-code</NavLink>
-                        <NavLink to='/contact' className='hover:text-blue-400 transition duration-700'>Contact</NavLink>
-                    </div>
-                    {/* mobile menu */}
+  return (
+    <nav className="bg-zinc-300 w-full">
+      
+      {/* Top Bar */}
+      <div className="h-20 flex items-center justify-between px-4 sm:px-10">
+        
+        {/* Logo */}
+        <h1 className="text-2xl sm:text-3xl font-bold">
+          AZIZULLAH
+        </h1>
 
-                </div>
-            </div>
-        </nav>
-    )
-}
+        {/* Desktop Menu */}
+        <div className="hidden md:flex items-center gap-6">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/resume">Resume</NavLink>
+          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/cssprojects">CSS</NavLink>
+          <NavLink to="/javascriptprojects">JS</NavLink>
+          <NavLink to="/codingexercises">Exercises</NavLink>
+          <NavLink to="/beyondcode">Beyond</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+        </div>
+
+        {/* Mobile Button */}
+        <button
+          className="md:hidden text-2xl"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          ☰
+        </button>
+      </div>
+
+      {/* Mobile Menu */}
+      <div
+        className={`md:hidden transition-all duration-300 ${
+          isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+        } overflow-hidden bg-zinc-200`}
+      >
+        <div className="flex flex-col gap-4 px-6 py-4">
+
+          <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
+          <NavLink to="/about" onClick={() => setIsOpen(false)}>About</NavLink>
+          <NavLink to="/resume" onClick={() => setIsOpen(false)}>Resume</NavLink>
+          <NavLink to="/services" onClick={() => setIsOpen(false)}>Services</NavLink>
+          <NavLink to="/cssprojects" onClick={() => setIsOpen(false)}>CSS</NavLink>
+          <NavLink to="/javascriptprojects" onClick={() => setIsOpen(false)}>JS</NavLink>
+          <NavLink to="/codingexercises" onClick={() => setIsOpen(false)}>Exercises</NavLink>
+          <NavLink to="/beyondcode" onClick={() => setIsOpen(false)}>Beyond</NavLink>
+          <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
 export default Navbar;
-
-{/* <li><NavLink to='/'>Home</NavLink></li>
-                <li><NavLink to='/about'>About</NavLink></li>
-                <li><NavLink to='/resume'>Resume</NavLink></li>
-                <li><NavLink to='/services'>Services</NavLink></li>
-                <li><NavLink to='/cssprojects'>Css-Projects</NavLink></li>
-                <li><NavLink to='/javascriptprojects'>Javascript-Projects</NavLink></li>
-                <li><NavLink to='/codingexercises'>Coding-Exercises</NavLink></li>
-                <li><NavLink to='/beyondcode'>Beyond-code</NavLink></li>
-                <li><NavLink to='/contact'>Contact</NavLink></li> */}
