@@ -4,7 +4,7 @@ import myPic from "../assets/images/myPic.jpeg";
 import { FaArrowRight ,FaDownload} from "react-icons/fa";
 const About = ()=>{
     return(
-        <section className="w-full py-4 px-4 bg-white">
+        <section className="w-full py-4 px-4 bg-white mb-8">
             {/* about heading */}
             <h2 className="text-[30px] font-bold text-center">About</h2>
             <p className="mx-auto max-w-[672px] mb-12 mt-4">I am a Frontend Web Developer with a strong understanding of HTML, 
@@ -52,9 +52,10 @@ const About = ()=>{
                          learning journey and continue to improve my skills through 
                          real projects.</p>
                          {/* skill cards */}
-                         <div className="flex gap-6 max-w-full mx-auto px-4 grid  sm:grid-cols-2 lg:grid-cols-4">
+  <div className="gap-6 max-w-full mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-4 justify-center">
+
                             {/* card1 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
                                 <h4 className="text-[20px] font-semibold mb-2">HTML</h4>
                                 <p>Skilled in creating well-structured, semantic web
                                      pages with clean and organized code. Proficient 
@@ -75,7 +76,7 @@ const About = ()=>{
                                      </div>
                             </div>
                              {/* card2 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
                                 <h4 className="text-[20px] font-semibold mb-2">CSS</h4>
                                 <p>Able to design visually appealing and responsive 
                                     web pages with modern styling techniques. Skilled 
@@ -94,7 +95,7 @@ const About = ()=>{
                                      </div>
                             </div>
                              {/* card3 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
                                 <h4 className="text-[20px] font-semibold mb-2">JavaScript</h4>
                                 <p>Capable of adding interactivity and dynamic 
                                     behavior to web pages. Skilled in using core 
@@ -113,7 +114,7 @@ const About = ()=>{
                                      </div>
                             </div>
                              {/* card4 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
                                 <h4 className="text-[20px] font-semibold mb-2">React-JS</h4>
                                 <p>Gaining hands-on experience with React 
                                     fundamentals, including components, props,
@@ -131,7 +132,9 @@ const About = ()=>{
           <div className="h-full w-[90%] bg-sky-500 rounded-full"></div>
         </div>
                                      </div>
+                    
                             </div>
+                            
                          </div>
                  </div>
         </section>
