@@ -56,7 +56,7 @@ import { MdOutlineEmail } from "react-icons/md";
 const Home = () => {
   return (
     <section className="min-h-screen flex items-center">
-      <div className="container px-6 md:px-10 mx-auto">
+      <div className="container px-6 md:px-2 mx-auto">
         {/* row */}
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
 

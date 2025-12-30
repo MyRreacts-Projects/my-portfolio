@@ -1,22 +1,23 @@
 //about.jsx 
 import React from "react";
+import myPic from "../assets/images/myPic.jpeg";
 import { FaArrowRight ,FaDownload} from "react-icons/fa";
 const About = ()=>{
     return(
-        <section>
+        <section className="w-full py-4 px-4 bg-white">
             {/* about heading */}
-            <h2>About</h2>
-            <p>I am a Frontend Web Developer with a strong understanding of HTML, 
+            <h2 className="text-[30px] font-bold text-center">About</h2>
+            <p className="mx-auto text-center max-w-[672px] mb-12 mt-4">I am a Frontend Web Developer with a strong understanding of HTML, 
                 CSS, Bootstrap, JavaScript, and React.js. I have built multiple
                  CSS and JavaScript projects for practice during my learning 
                  journey and continue to improve my skills through real projects.</p>
                  {/* about content */}
-                 <div>
+                 <div className="max-w-full items-center mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
                     {/* left column */}
                     <div>
-                        <h3>Hi, I’m Azizullah – a Frontend Developer building 
+                        <h3 className="text-[25px] font-semibold mb-4">Hi, I’m Azizullah – a Frontend Developer building 
                             responsive and user-friendly web experiences.</h3>
-                            <p>Hi, I’m Azizullah, a Frontend Web Developer. 
+                            <p className="text-gray-700 mb-6" >Hi, I’m Azizullah, a Frontend Web Developer. 
                                  specialize in building clean, responsive, and
                                   user-friendly websites using HTML, CSS, JavaScript,
                                    Bootstrap and ReactJs. I enjoy turning creative 
@@ -30,14 +31,15 @@ const About = ()=>{
                                       opportunities where I can contribute and grow
                                        as a developer.</p>
                                        {/* buttons */}
-                                       <div>
-                                        <button>View My Work <FaArrowRight/></button>
-                                        <button>Download Resume <FaDownload/></button>
+                                       <div className="flex gap-4">
+                                        <button className="flex items-center gap-2 md:gap-4 py-2 px-4 md:py-3 md:px-6 text-sm md:text-base bg-blue-600 text-white rounded-[10px]">View My Work <FaArrowRight/></button>
+                                        <button className="flex items-center  gap-2 md:gap-4 py-2 px-4 md:py-3 md:px-6 text-sm md:text-base bg-blue-600 text-white rounded-[10px]">Download Resume <FaDownload /></button>
+
                                        </div>
                     </div>
                     {/* right column */}
                     <div>
-                        <img src="" alt="" />
+                        <img src={myPic} alt="my-pic" className="h-[400px] w-[400px] md:h-125  md:w-132.5 object-cover" />
                     </div>
                  </div>
                  {/* skill section */}
