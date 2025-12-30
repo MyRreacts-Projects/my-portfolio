@@ -7,7 +7,7 @@ const About = ()=>{
         <section className="w-full py-4 px-4 bg-white">
             {/* about heading */}
             <h2 className="text-[30px] font-bold text-center">About</h2>
-            <p className="mx-auto text-center max-w-[672px] mb-12 mt-4">I am a Frontend Web Developer with a strong understanding of HTML, 
+            <p className="mx-auto max-w-[672px] mb-12 mt-4">I am a Frontend Web Developer with a strong understanding of HTML, 
                 CSS, Bootstrap, JavaScript, and React.js. I have built multiple
                  CSS and JavaScript projects for practice during my learning 
                  journey and continue to improve my skills through real projects.</p>
@@ -43,18 +43,19 @@ const About = ()=>{
                     </div>
                  </div>
                  {/* skill section */}
-                 <div>
-                    <h2>Skills</h2>
-                    <p>I am a Frontend Web Developer with a strong understanding of 
+                 <div className="mt-20">
+                    {/* className="mx-auto text-center max-w-[672px] mb-12 mt-4" */}
+                    <h2 className="text-[30px] font-bold text-center">Skills</h2>
+                    <p className="max-w-[672px] mb-12 mt-4 mx-auto">I am a Frontend Web Developer with a strong understanding of 
                         HTML, CSS, Bootstrap, JavaScript, and React.js. I have built
                          multiple CSS and JavaScript projects for practice during my 
                          learning journey and continue to improve my skills through 
                          real projects.</p>
                          {/* skill cards */}
-                         <div>
+                         <div className="flex gap-6 max-w-full mx-auto px-4 grid  sm:grid-cols-2 lg:grid-cols-4">
                             {/* card1 */}
-                            <div>
-                                <h4>HTML</h4>
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                                <h4 className="text-[20px] font-semibold mb-2">HTML</h4>
                                 <p>Skilled in creating well-structured, semantic web
                                      pages with clean and organized code. Proficient 
                                      in building responsive layouts and using HTML5 
@@ -63,19 +64,19 @@ const About = ()=>{
                                        
   {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
-          100%
+          90%
         </div>
 
         {/* Progress Bar */}
         <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
-          <div className="h-full w-50 bg-sky-500 rounded-full"></div>
+          <div className="h-full w-[90%] bg-sky-500 rounded-full"></div>
         </div>
                                        
                                      </div>
                             </div>
                              {/* card2 */}
-                            <div>
-                                <h4>CSS</h4>
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                                <h4 className="text-[20px] font-semibold mb-2">CSS</h4>
                                 <p>Able to design visually appealing and responsive 
                                     web pages with modern styling techniques. Skilled 
                                     in CSS3 features, layouts, and customizing 
@@ -83,18 +84,18 @@ const About = ()=>{
                                      <div>
                                        {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
-          100%
+          90%
         </div>
 
         {/* Progress Bar */}
         <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
-          <div className="h-full w-50 bg-sky-500 rounded-full"></div>
+          <div className="h-full w-[90%] bg-sky-500 rounded-full"></div>
         </div>
                                      </div>
                             </div>
                              {/* card3 */}
-                            <div>
-                                <h4>JavaScript</h4>
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                                <h4 className="text-[20px] font-semibold mb-2">JavaScript</h4>
                                 <p>Capable of adding interactivity and dynamic 
                                     behavior to web pages. Skilled in using core 
                                     JavaScript concepts to solve problems and 
@@ -102,18 +103,18 @@ const About = ()=>{
                                      <div>
                                         {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
-          100%
+          90%
         </div>
 
         {/* Progress Bar */}
         <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
-          <div className="h-full w-50 bg-sky-500 rounded-full"></div>
+          <div className="h-full w-[90%] bg-sky-500 rounded-full"></div>
         </div>
                                      </div>
                             </div>
                              {/* card4 */}
-                            <div>
-                                <h4>React-JS</h4>
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_8px_25px_rgba(15,23,42,0.2)]">
+                                <h4 className="text-[20px] font-semibold mb-2">React-JS</h4>
                                 <p>Gaining hands-on experience with React 
                                     fundamentals, including components, props,
                                      and state management. Currently learning 
@@ -122,12 +123,12 @@ const About = ()=>{
                                      <div>
                                         {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
-          100%
+          90%
         </div>
 
         {/* Progress Bar */}
         <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
-          <div className="h-full w-50 bg-sky-500 rounded-full"></div>
+          <div className="h-full w-[90%] bg-sky-500 rounded-full"></div>
         </div>
                                      </div>
                             </div>
