@@ -55,16 +55,17 @@ const About = ()=>{
   <div className="gap-6 max-w-full mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-4 justify-center">
 
                             {/* card1 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)] flex flex-col h-full">
                                 <h4 className="text-[20px] font-semibold mb-2">HTML</h4>
                                 <p>Skilled in creating well-structured, semantic web
                                      pages with clean and organized code. Proficient 
                                      in building responsive layouts and using HTML5 
                                      best practices.</p>
-                                     <div>
+                                     {/* progress section */}
+                                     <div className="mt-auto">
                                        
   {/* Percentage */}
-        <div className="flex justify-end text-red text-sm font-semibold mb-2">
+        <div className="flex justify-end text-red text-sm font-semibold">
           90%
         </div>
 
@@ -76,13 +77,14 @@ const About = ()=>{
                                      </div>
                             </div>
                              {/* card2 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)] flex flex-col h-full">
                                 <h4 className="text-[20px] font-semibold mb-2">CSS</h4>
                                 <p>Able to design visually appealing and responsive 
                                     web pages with modern styling techniques. Skilled 
                                     in CSS3 features, layouts, and customizing 
                                     designs for different devices.</p>
-                                     <div>
+                                    {/* progress section */}
+                                     <div className="mt-auto">
                                        {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
           90%
@@ -95,13 +97,14 @@ const About = ()=>{
                                      </div>
                             </div>
                              {/* card3 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)] flex flex-col h-full">
                                 <h4 className="text-[20px] font-semibold mb-2">JavaScript</h4>
                                 <p>Capable of adding interactivity and dynamic 
                                     behavior to web pages. Skilled in using core 
                                     JavaScript concepts to solve problems and 
                                     enhance user experience.</p>
-                                     <div>
+                                    {/* progress section */}
+                                     <div className="mt-auto">
                                         {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
           90%
@@ -114,14 +117,15 @@ const About = ()=>{
                                      </div>
                             </div>
                              {/* card4 */}
-                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)]">
+                            <div className=" bg-[white] rounded-2xl p-6  shadow-[0_0px_12px_rgba(15,23,42,0.25)] flex flex-col h-full">
                                 <h4 className="text-[20px] font-semibold mb-2">React-JS</h4>
                                 <p>Gaining hands-on experience with React 
                                     fundamentals, including components, props,
                                      and state management. Currently learning 
                                      advanced concepts to strengthen my frontend
                                       development skills.</p>
-                                     <div>
+                                      {/* progress section */}
+                                     <div className="mt-auto">
                                         {/* Percentage */}
         <div className="flex justify-end text-red text-sm font-semibold mb-2">
           90%
