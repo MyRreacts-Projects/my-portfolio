@@ -51,7 +51,7 @@ const cssProjects = [
   },
   {
     id: 2,
-    title: "Creative CSS Website",
+    title: "Figma design to responsive page",
     image:two,
     live: "https://figma-mu-lemon.vercel.app",
     github: "https://github.com/AzizullahCodes/figma.git",
@@ -65,86 +65,86 @@ const cssProjects = [
   },
   {
     id: 4,
-    title: "Modern Layout Design",
+    title: "Mountain web page",
     image: four,
     live: "https://mountain-xi-murex.vercel.app",
     github: "https://github.com/AzizullahCodes/Mountain.git",
   },
    {
     id: 5,
-    title: "Modern Layout Design",
+    title: "Furniture web page",
     image: five,
     live: "https://furniture-web-lac.vercel.app/",
     github: "https://github.com/AzizullahCodes/furniture-web.git",
   },
    {
     id: 6,
-    title: "Modern Layout Design",
+    title: "Amazon small clone",
     image: six,
     live: "https://amazon-clone-website-brown.vercel.app",
     github: "https://github.com/AzizullahCodes/amazon-clone-website",
   },
    {
     id: 7,
-    title: "Modern Layout Design",
+    title: "University web page",
     image: seven,
     live: "https://school-website-nine-neon.vercel.app",
     github: "https://github.com/AzizullahCodes/School-website.git",
   },
    {
     id: 8,
-    title: "Modern Layout Design",
+    title: "Sea Show piece shop web page",
     image: eight,
     live: "https://mumtaz-sea-show-piece-online-store.vercel.app/",
     github: "https://github.com/AzizullahCodes/Mumtaz-sea-show-piece-online-store.git",
   },
    {
     id: 9,
-    title: "Modern Layout Design",
+    title: "Figma to responsive design two",
     image: nine,
     live: "https://figma-small-web-page.vercel.app",
     github: "https://github.com/AzizullahCodes/figma-small-web-page.git",
   },
    {
     id: 10,
-    title: "Modern Layout Design",
+    title: "Figma to responsive design",
     image: ten,
     live: "https://small-figma-to-coding.vercel.app",
     github: "https://github.com/AzizullahCodes/small-figma-to-coding.git",
   },
    {
     id: 11,
-    title: "Modern Layout Design",
+    title: "Samll figma to design",
     image: eleven,
     live: "https://figma-design-05.vercel.app",
     github: "https://github.com/AzizullahCodes/figma-design-05.git",
   },
    {
     id: 12,
-    title: "Modern Layout Design",
+    title: "Figma to Responsive web page",
     image: twelve,
     live: "https://e-commerce-web-two-nu.vercel.app",
     github: "https://github.com/AzizullahCodes/E-commerce-web.git",
   },
    {
     id: 13,
-    title: "Modern Layout Design",
+    title: "Frontend Mentor web page",
     image: thirteen,
     live: "https://azizullahcodes.github.io/practice-web/",
     github: "https://github.com/AzizullahCodes/practice-web.git",
   },
    {
     id: 14,
-    title: "Modern Layout Design",
-    image: thirteen,
-    live: "https://azizullahcodes.github.io/practice-web/",
-    github: "https://github.com/AzizullahCodes/practice-web.git",
+    title: "Furniture web page",
+    image: five,
+    live: "https://furniture-web-lac.vercel.app",
+    github: "https://github.com/AzizullahCodes/furniture-web.git",
   },
 ];
 
 const CssProjects = () => {
   return (
-    <section className="py-24 px-4 max-w-[1280px] mx-auto bg-gray-50">
+    <section className="py-16 px-4 max-w-[1280px] mx-auto bg-gray-50">
       {/* Heading */}
       <h2 className="text-[25px] md:text-[35px] lg:text-[50px] text-center mb-4 text-gray-900 font-medium">
         My CSS Projects
@@ -183,7 +183,7 @@ This section showcases my CSS-based projects where I focused
                     {project.title}
                   </h3>
                   <p className="text-gray-200 text-sm">
-                    Responsive and modern CSS project demonstrating layout, animations, and clean UI.
+                    Responsive and modern CSS project converted from figma to responsive design.
                   </p>
                 </div>
               </div>
