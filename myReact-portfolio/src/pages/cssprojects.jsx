@@ -106,12 +106,12 @@ This section showcases my CSS-based projects where I focused
               </div>
 
               {/* Buttons */}
-              <div className="">
+              <div className="p-6 flex gap-4">
                 <a
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=""
+                  className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 rounded-xl shadow-lg hover:scale-105 transform trasition"
                 >
                   <FaExternalLinkAlt />
                   Live Demo
@@ -121,7 +121,7 @@ This section showcases my CSS-based projects where I focused
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=""
+                  className="flex-1 flex items-center justify-center gap-2 border border-gray-800 py-3 rounded-xl hover:bg-gray-900 hover:text-white transition"
                 >
                   <FaGithub />
                   GitHub
