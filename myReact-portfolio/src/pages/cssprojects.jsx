@@ -25,35 +25,118 @@
 
 
 import React from "react";
-import mybindle from "../assets/cssImages/mybindle.PNG";
+import one from "../assets/cssImages/one.PNG";
+import two from "../assets/cssImages/two.PNG";
+import three from "../assets/cssImages/three.PNG";
+import four from "../assets/cssImages/four.PNG";
+import five from "../assets/cssImages/five.PNG";
+import six from "../assets/cssImages/six.PNG";
+import seven from "../assets/cssImages/seven.PNG";
+import eight from "../assets/cssImages/eight.PNG";
+import nine from "../assets/cssImages/nine.PNG";
+import ten from "../assets/cssImages/ten.PNG";
+import eleven from "../assets/cssImages/eleven.PNG";
+import twelve from "../assets/cssImages/twelve.PNG";
+import thirteen from "../assets/cssImages/thirteen.PNG";
+import fourteen from "../assets/cssImages/fourteen.PNG";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const cssProjects = [
   {
     id: 1,
     title: "MyBindle Landing Page",
-    image: mybindle,
+    image: one,
     live: "https://your-live-link.com",
     github: "https://github.com/your-repo",
   },
   {
     id: 2,
     title: "Creative CSS Website",
-    image: mybindle,
+    image:two,
     live: "https://your-live-link.com",
     github: "https://github.com/your-repo",
   },
   {
     id: 3,
     title: "Responsive UI Project",
-    image: mybindle,
+    image: three,
     live: "https://your-live-link.com",
     github: "https://github.com/your-repo",
   },
   {
     id: 4,
     title: "Modern Layout Design",
-    image: mybindle,
+    image: four,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: five,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: six,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: seven,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: eight,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: nine,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: ten,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: eleven,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: twelve,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: thirteen,
+    live: "https://your-live-link.com",
+    github: "https://github.com/your-repo",
+  },
+   {
+    id: 4,
+    title: "Modern Layout Design",
+    image: fourteen,
     live: "https://your-live-link.com",
     github: "https://github.com/your-repo",
   },
