@@ -4,19 +4,11 @@ import one from "../assets/jsImages/1.PNG";
 import two from "../assets/jsImages/2.PNG";
 import three from "../assets/jsImages/3.PNG";
 import four from "../assets/jsImages/4.PNG";
-import five from "../assets/cssImages/five.PNG";
-import six from "../assets/cssImages/six.PNG";
-import seven from "../assets/cssImages/seven.PNG";
-import eight from "../assets/cssImages/eight.PNG";
-import nine from "../assets/cssImages/nine.PNG";
-import ten from "../assets/cssImages/ten.PNG";
-import eleven from "../assets/cssImages/eleven.PNG";
-import twelve from "../assets/cssImages/twelve.PNG";
-import thirteen from "../assets/cssImages/thirteen.PNG";
+
 
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-const cssProjects = [
+const jsProjects = [
   {
     id: 1,
     title: "Array Compare",
@@ -68,7 +60,7 @@ const JavascriptProjects = ()=>{
    
          {/* Grid */}
          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-           {cssProjects.map((project, index) => (
+           {jsProjects.map((project, index) => (
              <div
                key={index}
                className="relative rounded-3xl overflow-hidden border border-gray-200 bg-white transition-transform duration-500 hover:-translate-y-4 hover:scale-105 mb-2"

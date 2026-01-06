@@ -23,7 +23,7 @@ const Navbar = () => {
           <NavLink to="/services">Services</NavLink>
           <NavLink to="/cssprojects">CSS</NavLink>
           <NavLink to="/javascriptprojects">JS</NavLink>
-          <NavLink to="/codingexercises">Exercises</NavLink>
+          <NavLink to="/codingexercise">Exercises</NavLink>
           <NavLink to="/beyondcode">Beyond</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </div>
