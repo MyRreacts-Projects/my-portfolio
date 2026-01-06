@@ -13,31 +13,27 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const exercises = [
   {
     id: 1,
-    title: "Array Compare",
+    title: "coding exercise",
     image: first,
-    live: "https://my-javascript-live-small-projects.github.io/ArrayEqualityTest/",
-    github: "https://github.com/My-JavaScript-Live-Small-Projects/ArrayEqualityTest.git",
+    github: "https://github.com/AzizullahCodes/first-js-logic-building-test.git",
   },
   {
     id: 2,
-    title: "Factorial Calculator",
+    title: "coding exercise",
     image:third,
-    live: "https://my-javascript-live-small-projects.github.io/Factorial/",
-    github: "https://github.com/My-JavaScript-Live-Small-Projects/Factorial.git",
+    github: "https://github.com/AzizullahCodes/array-practice-second-assignment.git",
   },
   {
     id: 3,
-    title: "Number Sorter",
+    title: "coding exercise",
     image: fourth,
-    live: "https://my-javascript-live-small-projects.github.io/AscendingOrderMagic/",
-    github: "https://github.com/My-JavaScript-Live-Small-Projects/AscendingOrderMagic.git",
+    github: "https://github.com/AzizullahCodes/array-third-assignment.git",
   },
   {
     id: 4,
-    title: "Letter Counter",
+    title: "coding exercise",
     image: fifth,
-    live: "https://my-javascript-live-small-projects.github.io/LetterCounter/",
-    github: "https://github.com/My-JavaScript-Live-Small-Projects/LetterCounter.git",
+    github: "https://github.com/AzizullahCodes/array-four-assignment.git",
   }
 ];
 const CodingExercises = ()=>{
@@ -47,17 +43,20 @@ const CodingExercises = ()=>{
         
          {/* Heading */}
          <h2 className="text-[25px] md:text-[35px] lg:text-[50px] text-center mb-4 text-gray-900 font-medium">
-           My Javascript Small Projects
+           My Javascript Practice Exercises
          </h2>
    
-         <p className="text-center text-gray-500 mb-14 max-w-4xl mx-auto text-base md:text-lg">
-           This section is a showcase of 40+ 
-      small to medium JavaScript projects I’ve built while practicing and 
-      exploring core web development concepts. Each project focuses on solving 
-      a specific problem or adding interactivity to the web — from text 
-      manipulation tools and calculators to sliders, quizzes, and dynamic 
-      UI features. Together, they reflect my journey of learning by building,
-       improving logic, and applying JavaScript in real-world scenarios.
+         <p className=" text-center text-gray-500 mb-14 max-w-4xl mx-auto text-base md:text-lg leading-7">
+           This section showcases my 52+ coding exercise collections, 
+           each containing around 50 problem-solving questions with practical
+            JavaScript solutions. From core concepts like DOM manipulation, 
+            functions, conditions, loops, arrays, and strings to advanced topics
+             such as OOP, promises, APIs, and callbacks — I am building a strong
+              problem-solving mindset step by step. This isn’t just a one-time
+               effort — I treat coding as daily practice. With every new exercise,
+                I sharpen my logic, explore multiple approaches, and push my limits.
+                 The journey is ongoing and never stops — because for me, consistent
+                  practice is the key to mastery in programming.
          </p>
    
          {/* Grid */}
@@ -93,27 +92,18 @@ const CodingExercises = ()=>{
                  </div>
    
                  {/* Buttons */}
-                 <div className="p-6 flex gap-4">
-                   <a
-                     href={project.live}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 rounded-xl shadow-lg hover:scale-105 transition"
-                   >
-                     <FaExternalLinkAlt />
-                     Live Demo
-                   </a>
-   
-                   <a
-                     href={project.github}
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     className="flex-1 flex items-center justify-center gap-2 border border-gray-800 py-3 rounded-xl hover:bg-gray-900 hover:text-white transition"
-                   >
-                     <FaGithub />
-                     GitHub
-                   </a>
-                 </div>
+                                 <div className="p-4 mx-auto flex justify-center">
+<a
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-32 sm:w-40 flex items-center justify-center gap-2 border border-gray-800 py-1.5 sm:py-3 rounded-lg  hover:bg-gray-900 hover:text-white transition">
+    <FaGithub />
+    GitHub
+  </a>
+</div>
+
+                   
    
                </div>
              </div>
