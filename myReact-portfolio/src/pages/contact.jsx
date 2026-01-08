@@ -5,7 +5,7 @@ const Contact = ()=>{
     return(
         <section className="py-16 px-16">
             {/* heading */}
-            <h2 className="text-[35px] font-bold text-center">Contact</h2>
+            <h2 className="text-[25px] md:text-[35px] lg:text-[50px] text-center mb-4 text-gray-900 font-medium">Contact</h2>
             {/* p */}
             <p className="text-center text-gray-500 mb-14 max-w-[500px] mx-auto text-base md:text-lg leading-7">📩 “I’d love to hear from you! Whether you have a question, 
                 a project idea, or just want to say hi — feel free to 
@@ -65,7 +65,9 @@ Korange Creek, Karachi</p>
                        <textarea rows="5" placeholder="your message"  className="border w-full border-gray-300 rounded-md p-3 focus:outline-none  focus:border-blue-500"></textarea>
                     </div>
                     {/* button */}
-                    <button className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition">Send Message</button>
+                   <div className="text-center mt-4">
+                     <button className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition">Send Message</button>
+                   </div>
                 </div>
                  </div>
         </section>
