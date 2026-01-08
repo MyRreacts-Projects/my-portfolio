@@ -3,7 +3,7 @@ import React from "react";
 import { FaMapMarkedAlt,FaPhoneAlt,FaEnvelope } from "react-icons/fa";
 const Contact = ()=>{
     return(
-        <section className="py-16 px-4">
+        <section className="py-16 px-16">
             {/* heading */}
             <h2 className="text-[35px] font-bold text-center">Contact</h2>
             {/* p */}
@@ -15,7 +15,10 @@ const Contact = ()=>{
                 <div className="max-w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
                     {/* left column */}
-                    <div className="space-y-8">
+                    <div className="space-y-8 bg-white shadow-lg p-8">
+
+                        <h3 className="text-2xl font-semibold mb-6">Contact Info</h3>
+
 
                         {/* location */}
                         <div className="flex gap-4">
