@@ -1,0 +1,44 @@
+/* css-project live-btn */
+ .live-btn{
+border: 2px solid black;
+border-radius: 20px !important;} 
+.live-btn:hover{
+border: 2px solid black;
+border-radius: 20px !important;
+background: blue;}
+.live-a{color: black;}
+.live-a:hover{color:white;}
+
+.custom-img{
+height: 360px;
+width: 360px;
+border-radius: 50% !important;} 
+/* navmenu */
+/* .navmenu{display: flex;
+gap: 50px !important;} */
+
+/* .navmenu li a {color: red !important;} */
+
+
+ .navmenu  li a:hover {
+    
+  background: #1387c1;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 242, 254, 0.7);
+  transform: scale(1.07);
+    
+  
+} 
+
+/* @media(max-width:500px){
+    .custom-img{
+height: 300px;
+width: 200px;
+margin-left: px;} 
+} */
+
+@media (max-width : 500px){
+  .custom-img{height: 260px;
+  width: 260px;
+border-radius: 50%;}
+}
